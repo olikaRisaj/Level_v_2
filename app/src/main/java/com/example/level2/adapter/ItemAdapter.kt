@@ -7,7 +7,7 @@ import com.bumptech.glide.Glide
 import com.example.level2.databinding.SingleItemBinding
 import com.example.level2.model.ContactData
 
-class ItemAdapter(var dataset: List<ContactData>): RecyclerView.Adapter<ItemAdapter.ViewHolder>() {
+class ItemAdapter(var dataset: MutableList<ContactData>): RecyclerView.Adapter<ItemAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val binding = SingleItemBinding.inflate(LayoutInflater.from(parent.context), parent, false)
@@ -16,7 +16,7 @@ class ItemAdapter(var dataset: List<ContactData>): RecyclerView.Adapter<ItemAdap
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         with(holder){
-            with(dataset[position]) {
+            with(dataset.get(position)) {
                 binding.contactNameTextview.text = this.contactName
                 binding.contactProfessionTextview.text = this.contactProfession
                 // create extension function to load photo with fun binding.contactPhotoImageView.load
