@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_big_text_size">18sp</dimen>
+    <dimen name="item_small_text_size">12sp</dimen>
+    <dimen name="item_horizontal_margin">16dp</dimen>
+    <dimen name="item_vertical_margin">8dp</dimen>
+    <dimen name="item_parent_height">66dp</dimen>
+    <dimen name="item_image_size">50dp</dimen>
+    <dimen name="item_image_margin">10dp</dimen>
+    <dimen name="item_text_vertical_margin">14dp</dimen>
+    <dimen name="header_arrow_margin_start">21dp</dimen>
+    <dimen name="header_arrow_margin_top">17dp</dimen>
+    <dimen name="header_loop_margin_end">19dp</dimen>
+    <dimen name="header_loop_margin_top">17dp</dimen>
+    <dimen name="header_text_margin_top">10dp</dimen>
+    <dimen name="header_text_size_big">24sp</dimen>
+    <dimen name="header_add_cont_margin_start">16dp</dimen>
+    <dimen name="header_add_cont_margin_bottom">26dp</dimen>
+    <dimen name="header_text_size_small">14sp</dimen>
+
+</resources>

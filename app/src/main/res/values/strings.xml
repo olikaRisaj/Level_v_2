@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Level 2</string>
+    <string name="item_textview_profession">profession</string>
+    <string name="item_textview_name">name surname</string>
+</resources>
