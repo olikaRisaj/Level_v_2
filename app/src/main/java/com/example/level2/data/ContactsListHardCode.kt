@@ -3,12 +3,12 @@ package com.example.level2.data
 import com.example.level2.model.ContactData
 
 class ContactsListHardCode {
-    var contacts = listOf(
+    fun getContacts() = listOf(
         ContactData(
-        "name surname1",
-        "profession1",
-        "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png"
-    ),
+            "name surname1",
+            "profession1",
+            "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__340.png"
+        ),
         ContactData(
             "name surname2",
             "profession2",
